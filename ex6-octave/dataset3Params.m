@@ -20,7 +20,7 @@ sigma = 0.3;
 %               will return the predictions on the cross validation set.
 %
 
-Cvec=[1 10 20 30 40 50 60 70 80 90 100];
+Cvec=[1 10:10:100];
 sigmavec=[0.01 0.03 0.1 0.3 1 3 10 30];
 
 for i=1:length(Cvec)
